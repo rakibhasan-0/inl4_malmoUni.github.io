@@ -39,7 +39,7 @@ async function fetchMovies(title) {
             alert("No movies found!");
         }
     } catch (error) {
-        alert("Error occurred while fetching movies:", error);
+         alert(`Error occurred while fetching movies: ${error.message}`);
     }
 }
 
