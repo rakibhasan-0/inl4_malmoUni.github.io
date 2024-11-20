@@ -23,7 +23,7 @@ function getMovieFromAPI(event) {
 async function fetchMovies(title) {
 
     const apiKey = "41059430";
-    const apiUrl = `http://www.omdbapi.com/?s=${title}&type=movie&apikey=${apiKey}`;
+    const apiUrl = `https://www.omdbapi.com/?s=${title}&type=movie&apikey=${apiKey}`;
 
     try {
         // we are using fetch to get data from the API
